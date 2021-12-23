@@ -8,12 +8,12 @@ public double Saldo;
 public string NomeTitular;
 
 
-public double AddSaldo(double deposito){
+public void AddSaldo(double deposito){
 
  return Saldo += deposito;
 }
 
-public double Saque(double saque){
+public void Saque(double saque){
 
  return Saldo = (Saldo - saque) - 5.00;
 }
